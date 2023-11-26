@@ -3,7 +3,7 @@ title: 从递归到动态规划
 description: 从递归到动态规划
 date: 2023-11-17T12:00:00.000+00:00
 lang: zh
-duration: 30min
+duration: 10min
 ---
 
 > 本文汲取自《算法之禅》一书，外加自己的理解。
