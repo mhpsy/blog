@@ -15,7 +15,7 @@ I know the names of many philosophers: Socrates, Pythagoras, Plato, Aristotle, a
 ## TODO
 
 ### Learn
-0. 
 1. SICP(Structure and Interpretation of Computer Programs)
 2. Rust-Based Markdown Parser
 3. Flutter-Based Application(maybe related to the starry sky)
+
