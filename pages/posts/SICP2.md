@@ -166,13 +166,13 @@ eg:定义一个谓词,用于检测某个数是否大于或者等于另一个数
 
 先用js来一个简单的实现
 ```js
-const square = x => x * x;
-const goodEnough = (guess, x) => Math.abs(square(guess) - x) < 0.001;
-const improve = (guess, x) => (guess + x / guess) / 2;
+const square = x => x * x
+const goodEnough = (guess, x) => Math.abs(square(guess) - x) < 0.001
+const improve = (guess, x) => (guess + x / guess) / 2
 function sqrtIter(guess, x) {
-    return goodEnough(guess, x)
-        ? guess
-        : sqrtIter(improve(guess, x), x);
+  return goodEnough(guess, x)
+    ? guess
+    : sqrtIter(improve(guess, x), x)
 }
 ```
 
